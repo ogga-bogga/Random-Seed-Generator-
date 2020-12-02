@@ -1,0 +1,818 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) 
+  {
+   Random rnd = new Random();
+    int seed1 = rnd.Next(1000000, 9999999);
+//Console.WriteLine(seed1);
+    Random rnd2 = new Random();
+    int seed2 = rnd2.Next(1000000, 9999999);
+//Console.WriteLine(seed2);
+  Random rnd3 = new Random();
+  int seed3 = rnd3.Next(1000000, 9999999);
+//Console.WriteLine(seed3);
+  int sd1 = seed1 * 10;
+  int sd2 = seed2 * 100;
+  int seed4 = sd1 + sd2 + seed3;
+    Console.WriteLine("World Seed");
+    Console.WriteLine( Math.Abs( seed4 ) );
+    int terrain = seed4 /10000000;
+      Console.WriteLine( "terrain" );
+      Console.WriteLine( terrain );
+    int enemy1 = seed4 /100000;
+    int terrain2 = terrain * 100;
+    int enemy = terrain2 - enemy1;
+    Console.WriteLine( "enemy" );
+    Console.WriteLine( Math.Abs(enemy) );
+    int length1 = seed4 /1000;
+    int terrain3 = terrain * 10000;
+    int enemy2 = enemy *100;
+    int length2 = terrain3 - length1;
+    int length = enemy2 - length2;
+    //Console.WriteLine( "length" );
+    //Console.WriteLine( Math.Abs(length) );
+    if (length == 1)
+    {
+    Console.WriteLine(" Total Length: 1");
+    }   
+    if (length == 2)
+    {
+    Console.WriteLine("Total Length: 2");
+    }
+    if (length == 3)
+    {
+    Console.WriteLine("Total Length: 3");
+    }
+    if (length == 4)
+    {
+    Console.WriteLine("Total Length: 4");
+    }
+    if (length == 5)
+    {
+    Console.WriteLine("Total Length: 5");
+    }
+    if (length == 6)
+    {
+    Console.WriteLine("Total Length: 6");
+    }
+    if (length == 7)
+    {
+    Console.WriteLine("Total Length: 7");
+    }
+    if (length == 8)
+    {
+   Console.WriteLine("Total Length: 8");
+    }
+    if (length == 9)
+    {
+    Console.WriteLine("Total Length: 9");
+    }   
+    if (length == 10)
+    {
+    Console.WriteLine("Total Length: 10");
+    }
+    if (length == 11)
+    {
+     Console.WriteLine("Total Length: 11");
+    }
+    if (length == 12)
+    {
+    Console.WriteLine("Total Length: 12");
+    }
+    if (length == 13)
+    {
+    Console.WriteLine("Total Length: 13");
+    }
+    if (length == 14)
+    {
+    Console.WriteLine("Total Length: 14");
+    }
+    if (length == 15)
+    {
+    Console.WriteLine("Total Length: 15");
+    }
+    if (length == 16)
+    {
+    Console.WriteLine("Total Length: 16");
+    }
+    if (length == 17)
+    {
+    Console.WriteLine("Total Length: 17");
+    }
+    if (length == 18)
+    {
+    Console.WriteLine("Total Length: 18");
+    }
+    if (length == 19)
+    {
+    Console.WriteLine("Total Length: 19");
+    }
+    if (length == 20)
+    {
+    Console.WriteLine("Total Length: 20");
+    }
+    if (length == 21)
+    {
+    Console.WriteLine("Total Length: 21");
+    }
+    if (length == 22)
+    {
+    Console.WriteLine("Total Length: 22");
+    }
+    if (length == 23)
+    {
+    Console.WriteLine("Total Length: 23");
+    }
+    if (length == 24)
+    {
+    Console.WriteLine("Total Length: 24");
+    }
+    if (length == 25)
+    {
+    Console.WriteLine("Total Length: 25");
+    }
+    if (length == 26)
+    {
+    Console.WriteLine("Total Length: 26");
+    }
+    if (length == 27)
+    {
+    Console.WriteLine("Total Length: 27");
+    }
+    if (length == 28)
+    {
+    Console.WriteLine("Total Length: 29");
+    }
+    if (length == 30)
+    {
+    Console.WriteLine("Total Length: 30");
+    }
+    if (length == 31)
+    {
+    Console.WriteLine("Total Length: 31");
+    }
+    if (length == 32)
+    {
+    Console.WriteLine("Total Length: 32");
+    }
+    if (length == 33)
+    {
+    Console.WriteLine("Total Length: 33");
+    }
+    if (length == 34)
+    {
+    Console.WriteLine("Total Length: 34");
+    }
+    if (length == 35)
+    {
+    Console.WriteLine("Total Length: 35");
+    }
+    if (length == 36)
+    {
+    Console.WriteLine("Total Length: 36");
+    }
+    if (length == 37)
+    {
+    Console.WriteLine("Total Length: 37");
+    }
+    if (length == 38)
+    {
+    Console.WriteLine("Total Length: 38");
+    }
+    if (length == 39)
+    {
+    Console.WriteLine("Total Length: 39");
+    }
+    if (length == 40)
+    {
+    Console.WriteLine("Total Length: 40");
+    }
+    if (length == 41)
+    {
+    Console.WriteLine("Total Length: 41");
+    }
+    if (length == 42)
+    {
+    Console.WriteLine("Total Length: 43");
+    }
+    if (length == 44)
+    {
+    Console.WriteLine("Total Length: 44");
+    }
+    if (length == 45)
+    {
+    Console.WriteLine("Total Length: 45");
+    }
+    if (length == 46)
+    {
+    Console.WriteLine("Total Length: 46");
+    }
+    if (length == 47)
+    {
+    Console.WriteLine("Total Length: 47");
+    }
+    if (length == 48)
+    {
+    Console.WriteLine("Total Length: 48");
+    }
+    if (length == 49)
+    {
+    Console.WriteLine("Total Length: 49");
+    }
+    if (length == 50)
+    {
+    Console.WriteLine("Total Length: 50");
+    }
+    if (length == 51)
+    {
+    Console.WriteLine("Total Length: 51");
+    }
+    if (length == 52)
+    {
+    Console.WriteLine("Total Length: 52");
+    }
+    if (length == 53)
+    {
+    Console.WriteLine("Total Length: 53");
+    }
+    if (length == 54)
+    {
+    Console.WriteLine("Total Length: 54");
+    }
+    if (length == 55)
+    {
+    Console.WriteLine("Total Length: 55");
+    }
+    if (length == 56)
+    {
+    Console.WriteLine("Total Length: 56");
+    }
+    if (length == 57)
+    {
+    Console.WriteLine("Total Length: 57");
+    }
+    if (length == 58)
+    {
+    Console.WriteLine("Total Length: 58");
+    }
+    if (length == 59)
+    {
+    Console.WriteLine("Total Length: 59");
+    }
+    if (length == 60)
+    {
+    Console.WriteLine("Total Length: 60");
+    }
+    if (length == 61)
+    {
+    Console.WriteLine("Total Length: 61");
+    }
+    if (length == 62)
+    {
+    Console.WriteLine("Total Length: 62");
+    }
+    if (length == 63)
+    {
+    Console.WriteLine("Total Length: 63");
+    }
+    if (length == 64)
+    {
+    Console.WriteLine("Total Length: 64");
+    }
+    if (length == 65)
+    {
+    Console.WriteLine("Total Length: 65");
+    }
+    if (length == 66)
+    {
+    Console.WriteLine("Total Length: 66");
+    }
+    if (length == 67)
+    {
+    Console.WriteLine("Total Length: 67");
+    }
+    if (length == 68)
+    {
+    Console.WriteLine("Total Length: 68");
+    }
+    if (length == 69)
+    {
+    Console.WriteLine("Total Length: 69");
+    }
+    if (length == 70)
+    {
+    Console.WriteLine("Total Length: 70");
+    }
+    if (length == 71)
+    {
+    Console.WriteLine("Total Length: 71");
+    }
+    if (length == 72)
+    {
+    Console.WriteLine("Total Length: 72");
+    }
+    if (length == 73)
+    {
+    Console.WriteLine("Total Length: 73");
+    }
+    if (length == 74)
+    {
+    Console.WriteLine("Total Length: 74");
+    }
+    if (length == 75)
+    {
+    Console.WriteLine("Total Length: 75");
+    }
+    if (length == 76)
+    {
+    Console.WriteLine("Total Length: 76");
+    }
+    if (length == 77)
+    {
+    Console.WriteLine("Total Length: 77");
+    }
+    if (length == 78)
+    {
+    Console.WriteLine("Total Length: 78");
+    }
+    if (length == 79)
+    {
+    Console.WriteLine("Total Length: 79");
+    }
+    if (length == 80)
+    {
+    Console.WriteLine("Total Length: 80");
+    }
+    if (length == 81)
+    {
+    Console.WriteLine("Total Length: 81");
+    }
+    if (length == 82)
+    {
+    Console.WriteLine("Total Length: 82");
+    }
+    if (length == 83)
+    {
+    Console.WriteLine("Total Length: 83");
+    }
+    if (length == 84)
+    {
+    Console.WriteLine("Total Length: 84");
+    }
+    if (length == 85)
+    {
+    Console.WriteLine("Total Length: 85");
+    }
+    if (length == 86)
+    {
+    Console.WriteLine("Total Length: 86");
+    }
+    if (length == 87)
+    {
+    Console.WriteLine("Total Length: 87");
+    }
+    if (length == 88)
+    {
+    Console.WriteLine("Total Length: 88");
+    }
+    if (length == 89)
+    {
+    Console.WriteLine("Total Length: 89");
+    }
+    if (length == 90)
+    {
+    Console.WriteLine("Total Length: 90");
+    }
+    if (length == 91)
+    {
+    Console.WriteLine("Total Length: 91");
+    }
+    if (length == 92)
+    {
+    Console.WriteLine("Total Length: 92");
+    }
+    if (length == 93)
+    {
+    Console.WriteLine("Total Length: 93");
+    }
+    if (length == 94)
+    {
+    Console.WriteLine("Total Length: 94");
+    }
+    if (length == 95)
+    {
+    Console.WriteLine("Total Length: 95");
+    }
+    if (length == 96)
+    {
+    Console.WriteLine("Total Length: 96");
+    }
+    if (length == 97)
+    {
+    Console.WriteLine("Total Length: 97");
+    }
+    if (length == 98)
+    {
+    Console.WriteLine("Total Length: 98");
+    }
+    if (length == 99)
+    {
+    Console.WriteLine("Total Length: 99");
+    }
+    //Won't Output enemy does output without this
+    
+    if (enemy == 1)
+    {
+    Console.WriteLine("Total enemy: 1");
+    } 
+    if (enemy == 2)
+    {
+    Console.WriteLine("Total enemy: 2");
+    }
+    if (enemy == 3)
+    {
+    Console.WriteLine("Total enemy: 3");
+    }
+    if (enemy == 4)
+    {
+    Console.WriteLine("Total enemy: 4");
+    }
+    if (enemy == 5)
+    {
+    Console.WriteLine("Total enemy: 5"); 
+    }
+    if (enemy == 6)
+    {
+    Console.WriteLine("Total enemy: 6");
+    }
+    if (enemy == 7)
+    {
+    Console.WriteLine("Total enemy: 7");
+    }
+    if (enemy == 8)
+    {
+    Console.WriteLine("Total enemy: 8");
+    }
+    if (enemy == 9)
+    {
+    Console.WriteLine("Total enemy: 9");
+    }   
+    if (enemy == 10)
+    {
+    Console.WriteLine("Total enemy: 10");
+    }
+    if (enemy == 11)
+    {
+    Console.WriteLine("Total enemy: 11");
+    }
+    if (enemy == 12)
+    {
+    Console.WriteLine("Total enemy: 12");
+    }
+    if (enemy == 13)
+    {
+    Console.WriteLine("Total enemy: 13");
+    }
+    if (enemy == 14)
+    {
+    Console.WriteLine("Total enemy: 14");
+    }
+    if (enemy == 15)
+    {
+    Console.WriteLine("Total enemy: 15");
+    }
+    if (enemy == 16)
+    {
+    Console.WriteLine("Total enemy: 16");
+    }
+    if (enemy == 17)
+    {
+    Console.WriteLine("Total enemy: 17");
+    }
+    if (enemy == 18)
+    {
+    Console.WriteLine("Total enemy: 18");
+    }
+    if (enemy == 19)
+    {
+    Console.WriteLine("Total enemy: 19");
+    }
+    if (enemy == 20)
+    {
+    Console.WriteLine("Total enemy: 20");
+    }
+    if (enemy == 21)
+    {
+    Console.WriteLine("Total enemy: 21");
+    }
+    if (enemy == 22)
+    {
+    Console.WriteLine("Total enemy: 22");
+    }
+    if (enemy == 23)
+    {
+    Console.WriteLine("Total enemy: 23");
+    }
+    if (enemy == 24)
+    {
+    Console.WriteLine("Total enemy: 24");
+    }
+    if (enemy == 25)
+    {
+    Console.WriteLine("Total enemy: 25");
+    }
+    if (enemy == 26)
+    {
+    Console.WriteLine("Total enemy: 26");
+    }
+    if (enemy == 27)
+    {
+    Console.WriteLine("Total enemy: 27");
+    }
+    if (enemy == 28)
+    {
+    Console.WriteLine("Total enemy: 29");
+    }
+    if (enemy == 30)
+    {
+    Console.WriteLine("Total enemy: 30");
+    }
+    if (enemy == 31)
+    {
+    Console.WriteLine("Total enemy: 31");
+    }
+    if (enemy == 32)
+    {
+    Console.WriteLine("Total enemy: 32");
+    }
+    if (enemy == 33)
+    {
+    Console.WriteLine("Total enemy: 33");
+    }
+    if (enemy == 34)
+    {
+    Console.WriteLine("Total enemy: 34");
+    }
+    if (enemy == 35)
+    {
+    Console.WriteLine("Total enemy: 35");
+    }
+    if (enemy == 36)
+    {
+    Console.WriteLine("Total enemy: 36");
+    }
+    if (enemy == 37)
+    {
+    Console.WriteLine("Total enemy: 37");
+    }
+    if (enemy == 38)
+    {
+    Console.WriteLine("Total enemy: 38");
+    }
+    if (enemy == 39)
+    {
+    Console.WriteLine("Total enemy: 39");
+    }
+    if (enemy == 40)
+    {
+    Console.WriteLine("Total enemy: 40");
+    }
+    if (enemy == 41)
+    {
+    Console.WriteLine("Total enemy: 41");
+    }
+    if (enemy == 42)
+    {
+    Console.WriteLine("Total enemy: 43");
+    }
+    if (enemy == 44)
+    {
+    Console.WriteLine("Total enemy: 44");
+    }
+    if (enemy == 45)
+    {
+    Console.WriteLine("Total enemy: 45");
+    }
+    if (enemy == 46)
+    {
+    Console.WriteLine("Total enemy: 46");
+    }
+    if (enemy == 47)
+    {
+    Console.WriteLine("Total enemy: 47");
+    }
+    if (enemy == 48)
+    {
+    Console.WriteLine("Total enemy: 48");
+    }
+    if (enemy == 49)
+    {
+    Console.WriteLine("Total enemy: 49");
+    }
+    if (enemy == 50)
+    {
+    Console.WriteLine("Total enemy: 50");
+    }
+    if (enemy == 51)
+    {
+    Console.WriteLine("Total enemy: 51");
+    }
+    if (enemy == 52)
+    {
+    Console.WriteLine("Total enemy: 52");
+    }
+    if (enemy == 53)
+    {
+    Console.WriteLine("Total enemy: 53");
+    }
+    if (enemy == 54)
+    {
+    Console.WriteLine("Total enemy: 54");
+    }
+    if (enemy == 55)
+    {
+    Console.WriteLine("Total enemy: 55");
+    }
+    if (enemy == 56)
+    {
+    Console.WriteLine("Total enemy: 56");
+    }
+    if (enemy == 57)
+    {
+    Console.WriteLine("Total enemy: 57");
+    }
+    if (enemy == 58)
+    {
+    Console.WriteLine("Total enemy: 58");
+    }
+    if (enemy == 59)
+    {
+    Console.WriteLine("Total enemy: 59");
+    }
+    if (enemy == 60)
+    {
+    Console.WriteLine("Total enemy: 60");
+    }
+    if (enemy == 61)
+    {
+    Console.WriteLine("Total enemy: 61");
+    }
+    if (enemy == 62)
+    {
+    Console.WriteLine("Total enemy: 62");
+    }
+    if (enemy == 63)
+    {
+    Console.WriteLine("Total enemy: 63");
+    }
+    if (enemy == 64)
+    {
+    Console.WriteLine("Total enemy: 64");
+    }
+    if (enemy == 65)
+    {
+    Console.WriteLine("Total enemy: 65");
+    }
+    if (enemy == 66)
+    {
+    Console.WriteLine("Total enemy: 66");
+    }
+    if (enemy == 67)
+    {
+    Console.WriteLine("Total enemy: 67");
+    }
+    if (enemy == 68)
+    {
+    Console.WriteLine("Total enemy: 68");
+    }
+    if (enemy == 69)
+    {
+    Console.WriteLine("Total enemy: 69");
+    }
+    if (enemy == 70)
+    {
+    Console.WriteLine("Total enemy: 70");
+    }
+    if (enemy == 71)
+    {
+    Console.WriteLine("Total enemy: 71");
+    }
+    if (enemy == 72)
+    {
+    Console.WriteLine("Total enemy: 72");
+    }
+    if (enemy == 73)
+    {
+    Console.WriteLine("Total enemy: 73");
+    }
+    if (enemy == 74)
+    {
+    Console.WriteLine("Total enemy: 74");
+    }
+    if (enemy == 75)
+    {
+    Console.WriteLine("Total enemy: 75");
+    }
+    if (enemy == 76)
+    {
+    Console.WriteLine("Total enemy: 76");
+    }
+    if (enemy == 77)
+    {
+    Console.WriteLine("Total enemy: 77");
+    }
+    if (enemy == 78)
+    {
+    Console.WriteLine("Total enemy: 78");
+    }
+    if (enemy == 79)
+    {
+    Console.WriteLine("Total enemy: 79");
+    }
+    if (enemy == 80)
+    {
+    Console.WriteLine("Total enemy: 80");
+    }
+    if (enemy == 81)
+    {
+    Console.WriteLine("Total enemy: 81");
+    }
+    if (enemy == 82)
+    {
+    Console.WriteLine("Total enemy: 82");
+    }
+    if (enemy == 83)
+    {
+    Console.WriteLine("Total enemy: 83");
+    }
+    if (enemy == 84)
+    {
+    Console.WriteLine("Total enemy: 84");
+    }
+    if (enemy == 85)
+    {
+    Console.WriteLine("Total enemy: 85");
+    }
+    if (enemy == 86)
+    {
+    Console.WriteLine("Total enemy: 86");
+    }
+    if (enemy == 87)
+    {
+    Console.WriteLine("Total enemy: 87");
+    }
+    if (enemy == 88)
+    {
+    Console.WriteLine("Total enemy: 88");
+    }
+    if (enemy == 89)
+    {
+    Console.WriteLine("Total enemy: 89");
+    }
+    if (enemy == 90)
+    {
+    Console.WriteLine("Total enemy: 90");
+    }
+    if (enemy == 91)
+    {
+    Console.WriteLine("Total enemy: 91");
+    }
+    if (enemy == 92)
+    {
+    Console.WriteLine("Total enemy: 92");
+    }
+    if (enemy == 93)
+    {
+    Console.WriteLine("Total enemy: 93");
+    }
+    if (enemy == 94)
+    {
+    Console.WriteLine("Total enemy: 94");
+    }
+    if (enemy == 95)
+    {
+    Console.WriteLine("Total enemy: 95");
+    }
+    if (enemy == 96)
+    {
+    Console.WriteLine("Total enemy: 96");
+    }
+    if (enemy == 97)
+    {
+    Console.WriteLine("Total enemy: 97");
+    }
+    if (enemy == 98)
+    {
+    Console.WriteLine("Total enemy: 98");
+    }
+    if (enemy == 99)
+    {
+    Console.WriteLine("Total enemy:99");
+    }
+    else
+    {
+      Console.WriteLine("ERROR");
+    }
+  }
+}
